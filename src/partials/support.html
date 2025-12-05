@@ -1,3 +1,51 @@
 <section class="section section-support">
-  <div class="container container-support">support</div>
+  <div class="container container-support">
+    <div class="support-form-wrapper">
+      <h2 class="section-support-title">
+        Залишились питання? Зв'яжіться з нами!
+      </h2>
+      <h3 class="section-support-text">Ми тут, щоб допомогти!</h3>
+      <form class="support-form">
+        <div class="support-form-field-wrapper">
+          <label for="user-name" class="support-form-label">Ім'я</label>
+          <input
+            class="support-form-input"
+            id="user-name"
+            name="user-name"
+            type="text"
+            minlength="5"
+            maxlength="64"
+            placeholder="Іван"
+          />
+          <p class="error-msg">Error text</p>
+        </div>
+        <div class="support-form-field-wrapper">
+          <label for="user-email" class="support-form-label"
+            >Електронна пошта</label
+          >
+          <input
+            class="support-form-input"
+            id="user-email"
+            name="user-email"
+            type="email"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            placeholder="hello@ecotote.com"
+          />
+          <p class="error-msg">Error text</p>
+        </div>
+        <div class="support-form-field-wrapper">
+          <label for="user-msg" class="support-form-label">Повідомлення</label>
+          <textarea
+            class="support-form-textarea"
+            name="user-msg"
+            id="user-msg"
+            maxlength="500"
+            placeholder="Введіть своє повідомлення..."
+          ></textarea>
+        </div>
+        <button class="support-form-btn" type="submit">Надіслати</button>
+      </form>
+    </div>
+    <div class="support-image"></div>
+  </div>
 </section>

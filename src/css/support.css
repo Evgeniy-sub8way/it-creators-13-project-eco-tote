@@ -1,0 +1,200 @@
+.section-support {
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 32px 16px;
+}
+.container-support {
+  /*max-width: 288px;*/
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section-support-title {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #030a06;
+  padding-bottom: 24px;
+}
+.section-support-text {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #030a06;
+  margin-bottom: 32px;
+}
+.support-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.support-form-field-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.support-form-label {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
+}
+.support-form-input {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
+  border: 1px solid rgba(3, 10, 6, 0.15);
+  border-radius: 6px;
+  padding-block: 8px;
+  padding-inline: 12px;
+  width: 288px;
+  height: 42px;
+  background-color: transparent;
+  outline: transparent;
+}
+.support-form-input:invalid {
+  color: #d64040;
+  border: 1px solid #d64040;
+}
+.support-form input::placeholder {
+  color: rgba(3, 10, 6, 0.6);
+}
+
+.support-form-textarea {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
+  resize: none;
+  outline: transparent;
+  background-color: transparent;
+  border: 1px solid rgba(3, 10, 6, 0.15);
+  border-radius: 6px;
+  padding: 12px;
+  height: 180px;
+  width: 288px;
+}
+.support-form textarea::placeholder {
+  color: rgba(3, 10, 6, 0.6);
+}
+.support-form-btn {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding-block: 12px;
+  padding-inline: 24px;
+  width: 288px;
+  height: 50px;
+  background: #030a06;
+}
+.support-form-btn:hover {
+  background: #1c221e;
+  opacity: 0.5;
+}
+.support-form-btn:active {
+  background: #113916;
+  opacity: 0.5;
+}
+.support-form-btn:disabled {
+  background: #030a06;
+  opacity: 0.2;
+}
+.error-msg {
+  display: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #d64040;
+}
+.support-form-input:invalid + .error-msg {
+  display: block;
+}
+
+.support-image {
+  border-radius: 40px;
+  width: 288px;
+  height: 428px;
+  background-image: url(../img/support/studio-space-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (min-resolution: 192dpi) {
+  .support-image {
+    background-image: url(../img/support/studio-space-mobile@2x.jpg);
+  }
+}
+@media screen and (min-width: 768px) {
+  .section-support {
+    max-width: 768px;
+    padding: 64px 32px;
+  }
+  .section-support-title {
+    max-width: 468px;
+  }
+  .support-form-input {
+    width: 704px;
+  }
+  .support-form-textarea {
+    width: 704px;
+  }
+  .support-form-btn {
+    width: 249px;
+  }
+  .support-image {
+    width: 704px;
+    height: 428px;
+    background-image: url(../img/support/studio-space-tab.jpg);
+  }
+}
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .support-image {
+    background-image: url(../img/support/studio-space-tab@2x.jpg);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section-support {
+    max-width: 1440px;
+    padding: 64px 64px;
+  }
+  .container-support {
+    max-width: 1312px;
+    flex-direction: row;
+  }
+  .section-support-title {
+    max-width: 644px;
+  }
+  .support-form-input {
+    width: 644px;
+  }
+  .support-form-textarea {
+    width: 644px;
+  }
+  .support-form-btn {
+    width: 198px;
+  }
+  .support-image {
+    width: 644px;
+    height: 767px;
+    background-image: url(../img/support/studio-space-desktop.jpg);
+  }
+}
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  .support-image {
+    background-image: url(../img/support/studio-space-desktop@2x.jpg);
+  }
+}
