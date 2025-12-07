@@ -13,34 +13,34 @@
     margin: 0 auto;
 }
 .container-gallery {
-    text-transform: capitalize;
     text-align: center;
 }
 .gallery-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 120%;
+    line-height: 1.20;
     letter-spacing: 0.01em;
     text-align: center;
     color: #030a06;
     font-family: "Comfortaa", sans-serif;
     margin-bottom: 16px;
     max-width: 288px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .gallery-description {
     font-weight: 400;
     font-size: 18px;
-    line-height: 160%;
+    line-height: 1.60;
     text-align: center;
     color: #030a06;
     margin-bottom: 32px;
     max-width: 288px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .gallery-list {
     max-width: 288px;
-    /*display: grid;
-    grid-template-columns: 1fr;
-    height: 1200px; */
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -51,10 +51,6 @@
 .gallery-item {
     display: flex;
     flex-direction: column;
-    /* padding-block: 0px 32px;
-    padding-inline: 0px; */
-    /* width: 100%; */
-    /* height: 288px; */
 }
 .gallery-item-view {
     border-radius: 32px;
@@ -79,12 +75,10 @@
     }
     .gallery-list {
         max-width: 704px;
-       /* grid-template-columns: repeat(2, 1fr); */
         flex-wrap: wrap;
         flex-direction: row;
         row-gap: 24px;
         column-gap: 24px;
-       /* margin-bottom: 64px; */
     }
     .gallery-item-view {
         display: block;
@@ -109,7 +103,6 @@
     }
     .gallery-item-view.item-3 {
         height: 700px;
-        flex-basis: auto;
     }
     .gallery-item.item-4 {
         order: 1;
@@ -124,59 +117,32 @@
     }
     .gallery-title {
         max-width: 768px;
-        margin-bottom: 24px;
     }
     .gallery-description {
         max-width: 768px;
-        flex-wrap: nowrap;
     }
     .gallery-list {
         max-width: 1312px;
-       /* flex-wrap: wrap;
-        flex-direction: row; */
     }
-
     .gallery-item-view {
         width: 421px;
     }
     .gallery-item.item-1 {
-        order: 4;
-        margin-right: 887px;
+        margin-right: 890px;
         margin-top: -445px;
     }
     .gallery-item-view.item-1 {
         height: 421px;
     }
-    /* .gallery-item-view.item-1,
-    .gallery-item-view.item-4
-     {
-        display: flex;
-        font: 1em sans-serif;
-        height: 340px;
-    } */
-
-    .gallery-item.item-2 {
-        order: 2;
-    }
-
     .gallery-item-view.item-2 {
         height: 865px;
     }
-
     .gallery-item.item-3 {
-        order: 3;
         margin-top: 0;
     }
-
     .gallery-item-view.item-3 {
         height: 865px;
-        flex-basis: auto;
     }
-
-    .gallery-item.item-4 {
-        order: 1;
-    }
-
     .gallery-item-view.item-4 {
         height: 421px;
     }
