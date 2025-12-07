@@ -1,1 +1,19 @@
 
+/* reset */
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1, h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.ecotote-feature {
+    max-width: 320px;
+    padding: 0 48px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
