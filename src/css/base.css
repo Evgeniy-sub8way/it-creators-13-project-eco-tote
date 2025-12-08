@@ -6,3 +6,18 @@ body {
   color: #030a06;
   background-color: #ebf8ed;
 }
+
+.section {
+  padding: 0 16px;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section {
+    padding: 0 64px;
+  }
+}

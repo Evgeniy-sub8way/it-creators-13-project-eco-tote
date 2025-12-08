@@ -1,1 +1,131 @@
+.container-advantages {
+  max-width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
 
+.advantages-paragraph {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  margin-top: 32px;
+  width: 72px;
+}
+.advantages-heading {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+  width: 288px;
+}
+.description-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+.advantages-list-img {
+  margin-bottom: 48px;
+}
+.images-advantages {
+  border-radius: 32px;
+  margin-bottom: 8px;
+}
+
+.heading-list {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+.paragraph-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+  .container-advantages {
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  .advantages-paragraph {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  .advantages-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    width: 704px;
+    margin-bottom: 24px;
+  }
+  .description-paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    width: 704px;
+    margin-bottom: 32px;
+  }
+  .heading-list {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+  }
+  .heading-two {
+    margin-bottom: 43px;
+  }
+  .paragraph-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 340px;
+  }
+  .paragraph-three {
+    width: 704px;
+  }
+  .container-img-two {
+    display: flex;
+    gap: 24px;
+    width: 704px;
+  }
+}
+
+/* Styles for Desktop devices */
+@media screen and (min-width: 1400px) {
+  .advantages-heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+  }
+  .description-paragraph {
+    margin-bottom: 80px;
+  }
+
+  .advantages-list {
+    width: 1312px;
+  }
+  .images-advantages {
+    width: 421.33px;
+    margin-bottom: 32px;
+  }
+  .heading-list {
+    width: 421.33px;
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  .paragraph-list {
+    width: 421.33px;
+  }
+  .container-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+}

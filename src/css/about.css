@@ -1,0 +1,128 @@
+
+/* #region about */
+.section-about {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    background-image: url("/img/about/bg-feature-mobile.jpg");
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.container-about {
+    display: block;
+    max-width: 288px;
+    margin: 0 auto;
+}
+
+/* Верхній маленький заголовок */
+.about-label {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+
+    padding-bottom: 12px;
+}
+
+/* Основний великий заголовок */
+.about-title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+
+    padding-bottom: 20px;
+}
+
+/* Опис */
+.about-description {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (min-resolution: 192dpi) {
+.section-about {
+        background-image: url("/img/about/bg-feature-mobile@2x.jpg");
+    }
+}
+
+@media screen and (min-width: 768px) {
+.section-about {
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        background-image: url("/img/about/bg-feature-tublet.jpg");
+    }
+
+.container-about {
+    display: block;
+    max-width: 768px;
+    margin: 0 auto;
+}
+/* Верхній маленький заголовок */
+.about-label {
+    padding-bottom: 16px;
+}
+
+/* Основний великий заголовок */
+.about-title {
+    padding-bottom: 24px;
+}
+
+/* Опис */
+.about-description {
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    max-width: 578px;
+}
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+.section-about {
+        background-image: url("/img/about/bg-feature-tublet@2x.jpg");
+    }
+}
+
+@media screen and (min-width: 1158px) {
+.section-about {
+        padding-top: 112px;
+        padding-bottom: 94px;
+
+        background-image: url("/img/about/bg-feature-desktop.jpg");
+    }
+
+/* Основний великий заголовок */
+.about-title {
+    font-size: 56px;
+    max-width: 629px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+.section-about {
+        background-image: url("/img/about/bg-feature-desktop@2x.jpg");
+    }
+}
+
+/* #endregion about */
