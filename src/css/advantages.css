@@ -1,6 +1,10 @@
+.section-advantages {
+  padding: 32px 16px;
+}
+
 .container-advantages {
   max-width: 320px;
-  padding: 0 16px;
+  padding: 0;
   margin: 0 auto;
 }
 
@@ -50,6 +54,7 @@
 
 @media screen and (min-width: 768px) {
   .container-advantages {
+    max-width: 768px;
     padding: 0 16px;
     margin: 0 auto;
   }
@@ -98,7 +103,14 @@
 }
 
 /* Styles for Desktop devices */
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1440px) {
+  .section-advantages {
+    padding: 32px 16px;
+  }
+  .container-advantages {
+    max-width: 1200px;
+  }
+
   .advantages-heading {
     font-weight: 700;
     font-size: 48px;
@@ -126,6 +138,7 @@
   .container-images {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 24px;
   }
 }
