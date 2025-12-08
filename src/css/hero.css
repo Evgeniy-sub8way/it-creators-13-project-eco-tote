@@ -2,16 +2,13 @@
   padding: 64px 16px;
 }
 
-.container {
-  max-width: 320px;
-  margin: 0 auto;
-}
-
 .container-hero {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin: 0 auto;
   /* padding: 64px 0; */
 }
 
@@ -64,8 +61,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 736px;
+  .container-hero {
+    max-width: 768px;
   }
 
   .section-hero {
@@ -113,8 +110,8 @@
     padding: 32px 64px;
   }
 
-  .container {
-    max-width: 1440px;
+  .container-hero {
+    max-width: 1200px;
     /* padding: 0 64px; */
   }
 

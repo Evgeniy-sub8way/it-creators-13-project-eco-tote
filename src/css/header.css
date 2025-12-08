@@ -5,7 +5,7 @@
 }
 
 .container-header {
-  max-width: 1200px;
+  max-width: 100%;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -111,6 +111,10 @@
   .section-header {
     padding: 14px 32px;
   }
+
+  .container-header {
+    max-width: 768px;
+  }
   .burger {
     width: 16px;
     height: 12px;
@@ -118,6 +122,9 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .container-header {
+    max-width: 1200px;
+  }
   .burger {
     display: none;
   }
