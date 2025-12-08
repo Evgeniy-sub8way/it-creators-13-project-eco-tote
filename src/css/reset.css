@@ -27,6 +27,7 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
+  font-style: normal;
 }
 
 button {
@@ -35,6 +36,9 @@ button {
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  /* max-width: 100%;
+  height: auto; */
+}
+.hide {
+  display: none;
 }

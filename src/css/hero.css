@@ -1,0 +1,156 @@
+.section-hero {
+  padding: 64px 16px;
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.container-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  /* padding: 64px 0; */
+}
+
+.hero-descr-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero-title {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  max-width: 288px;
+}
+
+.hero-text {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 288px;
+}
+
+.hero-link {
+  display: block;
+  background-color: #030a06;
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding: 12px 24px;
+  width: 288px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-img {
+  border-radius: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+
+  .section-hero {
+    padding: 32px 32px;
+  }
+
+  .container-hero {
+    gap: 20px;
+  }
+
+  .hero-descr-wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .hero-text-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .hero-title {
+    max-width: 340px;
+  }
+
+  .hero-text {
+    font-size: 18px;
+    max-width: 340px;
+  }
+
+  .hero-link {
+    max-width: 148px;
+    padding-left: 22px;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: 268px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section-hero {
+    padding: 32px 64px;
+  }
+
+  .container {
+    max-width: 1440px;
+    /* padding: 0 64px; */
+  }
+
+  .hero-descr-wrapper {
+    gap: 32px;
+  }
+
+  .hero-title {
+    max-width: 640px;
+    font-size: 56px;
+  }
+
+  .hero-text {
+    max-width: 640px;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: 498px;
+  }
+
+  .hero-link {
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-link:focus,
+  .hero-link:hover {
+    opacity: 0.5;
+  }
+
+  .hero-link:active {
+    border: 1px solid #113916;
+    background-color: #113916;
+    opacity: 0.6;
+  }
+}
