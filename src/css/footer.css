@@ -62,6 +62,22 @@
   width: 100%;
 }
 
+.socials-link {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.socials-link:hover,
+.socials-link :focus {
+  transform: scale(2.5);
+  opacity: 0.8;
+}
+
+.socials-link:hover,
+.socials-link :focus {
+  transform: scale(2.5);
+  opacity: 0.8;
+}
+
 @media screen and (min-width: 768px) {
   .section-footer {
     padding: 64px 0;
