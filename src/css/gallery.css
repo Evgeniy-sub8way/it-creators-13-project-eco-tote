@@ -1,165 +1,133 @@
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 0;
-} */
 .section-gallery {
-  padding-top: 32px 0;
-  /* max-width: 320px;
-    height: 1427px; */
+  padding: 32px 0;
 }
 
 .container-gallery {
-  text-align: center;
   max-width: 320px;
   margin: 0 auto;
   padding: 0 16px;
 }
+
 .gallery-title {
-  font-weight: 700;
+  font-family: 'Comfortaa', sans-serif;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.01em;
   text-align: center;
   color: #030a06;
-  font-family: 'Comfortaa', sans-serif;
   margin-bottom: 16px;
   max-width: 288px;
-  margin-left: auto;
-  margin-right: auto;
 }
+
 .gallery-description {
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
   text-align: center;
   color: #030a06;
   margin-bottom: 32px;
   max-width: 288px;
-  margin-left: auto;
-  margin-right: auto;
 }
+
 .gallery-list {
-  max-width: 288px;
   display: flex;
   flex-direction: column;
   gap: 16px;
   align-self: center;
   justify-content: center;
-  margin-bottom: 32px;
 }
-.gallery-item {
-  display: flex;
-  flex-direction: column;
-}
+
 .gallery-item-view {
   border-radius: 32px;
 }
+
 @media screen and (min-width: 768px) {
   .section-gallery {
-    padding-top: 64px;
-    /* max-width: 320px;
-    height: 1427px; */
-  }
-
-  .container-gallery {
-    padding: 0 64pxpx;
-  }
-
-  .section-gallery {
-    margin-top: 64px;
+    padding: 64px 0px;
   }
   .container-gallery {
+    max-width: 768px;
+
     padding: 0 32px;
   }
+
   .gallery-title {
-    max-width: 704px;
+    max-width: 100%;
     margin-bottom: 24px;
   }
+
   .gallery-description {
-    max-width: 704px;
-    flex-wrap: nowrap;
+    max-width: 100%;
   }
+
   .gallery-list {
-    max-width: 704px;
     flex-wrap: wrap;
     flex-direction: row;
-    row-gap: 24px;
-    column-gap: 24px;
+    gap: 24px;
   }
-  .gallery-item-view {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  .gallery-item.item-1 {
+
+  .gallery-item.item-first {
     order: 4;
   }
-  .gallery-item-view.item-1 {
+  .gallery-item-view.img-first {
     height: 340px;
+    width: 340px;
   }
-  .gallery-item.item-2 {
+  .gallery-item.item-second {
     order: 2;
   }
-  .gallery-item-view.item-2 {
+  .gallery-item-view.img-second {
     height: 700px;
+    width: 340px;
   }
-  .gallery-item.item-3 {
+  .gallery-item.item-third {
     order: 3;
     margin-top: -360px;
   }
-  .gallery-item-view.item-3 {
+  .gallery-item-view.img-third {
     height: 700px;
+    width: 340px;
   }
-  .gallery-item.item-4 {
+  .gallery-item.item-fourth {
     order: 1;
   }
-  .gallery-item-view.item-4 {
+  .gallery-item-view.img-fourth {
     height: 340px;
+    width: 340px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .section-gallery {
-    padding-top: 64px;
-    /* max-width: 320px;
-    height: 1427px; */
-  }
-
-  .section-gallery {
-    margin-top: 64px;
-  }
-  .container {
+  .container-gallery {
     max-width: 1440px;
+    padding: 0 64px;
   }
   .gallery-title {
-    max-width: 768px;
+    font-size: 48px;
   }
-  .gallery-description {
-    max-width: 768px;
-  }
-  .gallery-list {
-    max-width: 1312px;
-  }
-  .gallery-item-view {
-    width: 421px;
-  }
-  .gallery-item.item-1 {
-    margin-right: 890px;
-    margin-top: -445px;
-  }
-  .gallery-item-view.item-1 {
-    height: 421px;
-  }
-  .gallery-item-view.item-2 {
-    height: 865px;
-  }
-  .gallery-item.item-3 {
+
+  .gallery-item.item-third {
     margin-top: 0;
   }
-  .gallery-item-view.item-3 {
-    height: 865px;
-  }
-  .gallery-item-view.item-4 {
+  .gallery-item-view.img-first {
     height: 421px;
+    width: 421px;
+  }
+
+  .gallery-item-view.img-second {
+    height: 865px;
+    width: 421px;
+  }
+  .gallery-item-view.img-third {
+    height: 865px;
+    width: 421px;
+  }
+
+  .gallery-item-view.img-fourth {
+    height: 421px;
+    width: 421px;
+  }
+
+  .gallery-item.item-first {
+    margin-right: auto;
+    margin-top: -445px;
   }
 }
