@@ -1,6 +1,7 @@
 .section-support {
   padding: 32px 0;
 }
+
 .container-support {
   /*max-width: 288px;*/
   display: flex;
@@ -20,6 +21,7 @@
   color: #030a06;
   padding-bottom: 24px;
 }
+
 .section-support-text {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
@@ -28,18 +30,21 @@
   color: #030a06;
   margin-bottom: 32px;
 }
+
 .support-form {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
 }
+
 .support-form-field-wrapper {
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin-bottom: 24px;
 }
+
 .support-form-label {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
@@ -47,6 +52,7 @@
   line-height: 1.6;
   color: #030a06;
 }
+
 .support-form-input {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
@@ -66,10 +72,12 @@
 .support-form input::placeholder {
   color: rgba(3, 10, 6, 0.6);
 }
+
 .support-form-input:invalid {
   color: #d64040;
   border: 1px solid #d64040;
 }
+
 .support-form-textarea {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
@@ -85,9 +93,11 @@
   height: 180px;
   width: 288px;
 }
+
 .support-form textarea::placeholder {
   color: rgba(3, 10, 6, 0.6);
 }
+
 .support-form-btn {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
@@ -102,10 +112,12 @@
   height: 50px;
   background: #030a06;
 }
+
 .support-form-btn:active {
   background: #113916;
   opacity: 0.5;
 }
+
 .support-form-btn:hover {
   background: #1c221e;
   opacity: 0.5;
@@ -115,6 +127,7 @@
   background: #030a06;
   opacity: 0.2;
 }
+
 .error-msg {
   display: none;
   font-weight: 400;
@@ -122,7 +135,8 @@
   line-height: 1.6;
   color: #d64040;
 }
-.support-form-input:invalid + .error-msg {
+
+.support-form-input:invalid+.error-msg {
   display: block;
 }
 
@@ -130,77 +144,94 @@
   border-radius: 40px;
   width: 288px;
   height: 428px;
-  background-image: url(../img/support/studio-space-mobile.jpg);
+  background-image: url(../img/support/studio-space-mobile.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 @media screen and (min-resolution: 192dpi) {
   .support-image {
-    background-image: url(../img/support/studio-space-mobile@2x.jpg);
+    background-image: url(../img/support/studio-space-mobile@2x.webp);
   }
 }
+
 @media screen and (min-width: 768px) {
   .section-support {
     padding: 64px 0;
   }
+
   .container-support {
     padding: 0 32px;
     max-width: 768px;
   }
+
   .section-support-title {
     max-width: 468px;
   }
+
   .support-form-input {
     width: 704px;
   }
+
   .support-form-textarea {
     width: 704px;
   }
+
   .support-form-btn {
     width: 249px;
   }
+
   .support-image {
     width: 704px;
     height: 428px;
-    background-image: url(../img/support/studio-space-tab.jpg);
+    background-image: url(../img/support/studio-space-tab.webp);
   }
 }
+
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .support-image {
-    background-image: url(../img/support/studio-space-tab@2x.jpg);
+    background-image: url(../img/support/studio-space-tab@2x.webp);
   }
 }
+
 @media screen and (min-width: 1440px) {
   .section-support {
     padding: 64px 0;
   }
+
   .container-support {
     max-width: 1440px;
     padding: 0 64px;
 
     flex-direction: row;
   }
+
   .section-support-title {
     max-width: 644px;
   }
+
   .support-form-input {
     width: 644px;
   }
+
   .support-form-textarea {
     width: 644px;
   }
+
   .support-form-btn {
     width: 198px;
   }
+
   .support-image {
     width: 644px;
     height: 767px;
-    background-image: url(../img/support/studio-space-desktop.jpg);
+    background-image: url(../img/support/studio-space-desktop.webp);
   }
 }
+
 @media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .support-image {
-    background-image: url(../img/support/studio-space-desktop@2x.jpg);
+    background-image: url(../img/support/studio-space-desktop@2x.webp);
   }
 }
