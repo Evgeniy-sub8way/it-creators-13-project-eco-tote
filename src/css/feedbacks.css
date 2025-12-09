@@ -1,4 +1,5 @@
 .section-feedbacks {
+  padding: 32px 0;
   background-color: #ebf8ed;
 }
 
@@ -58,9 +59,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section-feedbacks {
+    padding: 64px 0;
+  }
   .container-feedbacks {
     max-width: 768px;
-    padding: 64px 16px;
+    padding: 0 32px;
   }
 
   .stars-list {
@@ -82,10 +86,9 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
+  .container-feedbacks {
     max-width: 1440px;
-    padding: 64px 16px;
-    padding-bottom: 114px;
+    padding: 0 64px;
   }
 
   .feedbacks-items {

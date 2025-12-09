@@ -1,17 +1,13 @@
 /* assortment */
 
-/* .container {
-  max-width: 320px;
-  
-  margin: 0 auto;
-} */
-
 .section-assortment {
   padding: 32px 0;
 }
 
 .container-assortment {
+  max-width: 320px;
   padding: 0 16px;
+  margin: 0 auto;
 }
 
 .assortment-title {
@@ -93,12 +89,12 @@
 
 @media screen and (min-width: 768px) {
   .section-assortment {
-    padding: 64px 32px;
+    padding: 64px 0;
   }
 
-  .container {
+  .container-assortment {
     max-width: 768px;
-    /* padding: 0 32px; */
+    padding: 0 32px;
   }
 
   .assortment-list {
@@ -112,17 +108,15 @@
   }
 
   .assortment-thumb {
-    /* width: 340px; */
     width: 100%;
-    /* max-width: 310px; */
   }
 }
 
 @media screen and (min-width: 1440px) {
-  /* .section-assortment {
-    padding: 64px 64px;
-  } */
-  .container {
+  .section-assortment {
+    padding: 64px 0;
+  }
+  .container-assortment {
     max-width: 1440px;
     padding: 0 64px;
   }
@@ -140,9 +134,9 @@
     min-width: 0;
   }
 
-  /* .assortment-thumb {
+  .assortment-thumb {
     width: 310px;
-  } */
+  }
 
   .assortment-btn {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),

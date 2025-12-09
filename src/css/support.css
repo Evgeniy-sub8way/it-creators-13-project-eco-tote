@@ -1,13 +1,14 @@
 .section-support {
-  margin: 0 auto;
-  max-width: 320px;
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .container-support {
   /*max-width: 288px;*/
   display: flex;
   flex-direction: column;
   gap: 24px;
+  max-width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
 
 .section-support-title {
@@ -141,8 +142,11 @@
 }
 @media screen and (min-width: 768px) {
   .section-support {
+    padding: 64px 0;
+  }
+  .container-support {
+    padding: 0 32px;
     max-width: 768px;
-    padding: 64px 32px;
   }
   .section-support-title {
     max-width: 468px;
@@ -169,11 +173,12 @@
 }
 @media screen and (min-width: 1440px) {
   .section-support {
-    max-width: 1440px;
-    padding: 64px 64px;
+    padding: 64px 0;
   }
   .container-support {
-    max-width: 1312px;
+    max-width: 1440px;
+    padding: 0 64px;
+
     flex-direction: row;
   }
   .section-support-title {
