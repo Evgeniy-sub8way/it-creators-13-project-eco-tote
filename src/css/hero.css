@@ -1,5 +1,5 @@
 .section-hero {
-  padding: 64px 16px;
+  padding: 64px 0;
 }
 
 .container-hero {
@@ -9,7 +9,7 @@
   align-items: center;
   gap: 24px;
   margin: 0 auto;
-  /* padding: 64px 0; */
+  padding: 0 16px;
 }
 
 .hero-descr-wrapper {
@@ -61,12 +61,13 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section-hero {
+    padding-top: 32px;
+    padding-bottom: 64px;
+  }
   .container-hero {
     max-width: 768px;
-  }
-
-  .section-hero {
-    padding: 32px 32px;
+    padding: 0 32px;
   }
 
   .container-hero {
@@ -106,13 +107,9 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .section-hero {
-    padding: 32px 0;
-  }
-
   .container-hero {
     max-width: 1440px;
-    padding: 0 64px;
+    padding: 0 32px;
   }
 
   .hero-descr-wrapper {
