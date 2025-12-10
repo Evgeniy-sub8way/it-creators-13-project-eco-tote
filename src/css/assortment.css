@@ -22,7 +22,6 @@
 .assortment-list {
   display: flex;
   flex-wrap: wrap;
-  /* row-gap: 40px; */
   gap: 24px;
 }
 
