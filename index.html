@@ -643,9 +643,10 @@
             id="user-name"
             name="user-name"
             type="text"
-            minlength="5"
+            minlength="2"
             maxlength="64"
             placeholder="Іван"
+            required
           />
           <p class="error-msg">Error text</p>
         </div>
@@ -660,6 +661,7 @@
             type="email"
             pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             placeholder="hello@ecotote.com"
+            required
           />
           <p class="error-msg">Error text</p>
         </div>
@@ -669,8 +671,10 @@
             class="support-form-textarea"
             name="user-msg"
             id="user-msg"
+            minlength="6"
             maxlength="500"
             placeholder="Введіть своє повідомлення..."
+            required
           ></textarea>
         </div>
         <button class="support-form-btn" type="submit">Надіслати</button>
