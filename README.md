@@ -3,10 +3,10 @@ Team: "it-creators-13" (project_group13).
 - Хедер(header) @Evgeniy_Priadko (team-lead)
 - Секція Герой(hero) @Оля Боржинська (scrum-master)
 - Секція "Про еко-сумки"(about) @Yulia Kozak (developer)
-- Секція "Переваги наших сумок"(advantages) @Serhii (developer)
+- Секція "Переваги наших сумок"(advantages) SerhiiSergetty (developer)
 - Секція "Асортимент"(assortment) @Serhii Serdiuk (developer)
-- Секція "Галерея"(gallery) @Liliia Pastushenko (developer)
-- Секція "Відгуки клієнтів"(feedbacks) @Johnny (developer)
+- Секція "Галерея"(gallery) Liliia-2 (developer)
+- Секція "Відгуки клієнтів"(feedbacks) Ivan-Shkilnyi (developer)
 - Секція "Форма підтримки"(support) @Алексей Асриян (developer)
 - Підвал сайту (Футер)(footer) @Вікторія Александрова (developer)
 
